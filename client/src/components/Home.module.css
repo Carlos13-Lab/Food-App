@@ -1,0 +1,120 @@
+.bkg{
+    background-image: url('../icons/comida-italiana-que-cocina-los-ingredientes-en-fondo-de-piedra-oscuro-con-c-113783996.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+     display: flex; 
+     flex-direction: column; 
+    
+}
+.select{
+  background: rgb(182, 178, 59);
+  cursor: pointer;
+  display:inline-block;
+  justify-content: center;
+  text-align: center;
+  padding: 5px;
+  border-radius: 5px;
+  border-style: groove;
+  font-size: 17px;
+  font-family: "Helvetica Neue";
+  margin-top: 13px
+}
+.cards{
+    display: grid;
+    /* align-items:center; */
+    /* padding: 30px; */
+    justify-content: center;
+    grid-template-columns: 25% 25% 25% 25%;
+    gap: 20px;
+}
+
+.paginado{
+  display: flex;
+  flex-direction: row; 
+  justify-content: center;
+  
+}
+
+.filterC{
+  display: flex;
+  flex-direction: row;
+  justify-content: center ;
+  justify-content: space-evenly ;
+  margin-top:30px;
+  margin-bottom: 30px;
+}
+.refresh{
+ -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: italic;
+  color: #000000;
+  font-size: 14px;
+  background: rgb(193, 228, 187);
+  padding:  3px 13px 3px 13px ;
+  text-decoration: none;
+  margin-top: 13px
+}
+.input{
+  background-color: transparent;
+  font-size:20px;
+  color: rgb(0, 0, 0);
+  background:#d8e66c;
+  border-radius: 5px;
+}
+.create{
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: italic;
+  color: #000000;
+  font-size: 14px;
+  background: rgb(193, 228, 187);
+  padding:  3px 13px 3px 13px ;
+  text-decoration: none;
+  margin-top: 13px
+}
+.search{
+  display: flex;
+  justify-content: center;
+  margin-left: 50px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  color: #000;
+}
+
+.btnsearch {
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: italic;
+  color: #000000;
+  font-size: 13px;
+  background: #e6d57e;
+  padding:  5px 13px 1px 13px ;
+  text-decoration: none;
+  margin-bottom:1px;
+}
+
+.btnsearch:hover {
+  background: #000000;
+  text-decoration: none;
+  cursor: pointer;
+  color: #e6d57e;
+}
+.create:hover {
+  background: #d8e66c;
+  text-decoration: none;
+  cursor: pointer;
+}
+.refresh:hover {
+  background: #d8e66c;
+  text-decoration: none;
+  cursor: pointer;
+}
+
