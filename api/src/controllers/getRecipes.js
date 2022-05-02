@@ -2,8 +2,8 @@
 const axios = require('axios');
 const { Recipe, TypeDiet } = require('../db')
 const { Sequelize } = require('sequelize');
-  const API_KEY = 'c90b07c724114648a94a18329e1a41e2'
- //const API_KEY = '52c0001621f246cbaf61736d072514fb'
+ // const API_KEY = 'c90b07c724114648a94a18329e1a41e2'
+const API_KEY = 'c90b07c724114648a94a18329e1a41e2'
 
 const getApiInfo = async () => {
   const apiUrl = await axios.get(`https://api.spoonacular.com/recipes/complexSearch?apiKey=${API_KEY}&number=100&addRecipeInformation=true`)
